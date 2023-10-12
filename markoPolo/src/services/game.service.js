@@ -1,4 +1,3 @@
-
 class GameService {
     async startMarkoPolo(num) {
         /** check if the number is divisible by 3 and 5 */
@@ -11,8 +10,3 @@ class GameService {
 }
 
 module.exports = GameService;
-
-
-// const result = startMarkoPolo(number);
-
-// console.log(result);
