@@ -1,11 +1,4 @@
-// TODO: move to utils/array.js
-async function createRangeArray(start, end) {
-    const rangeArray = [];
-    for (let i = start; i <= end; i++) {
-      rangeArray.push(i);
-    }
-    return rangeArray;
-  }
+const { createRangeArray } = require("./utils/array");
 
 async function gameRoute(app) {
     app.get('/game/:number', async (req, res) => {
@@ -70,8 +63,6 @@ async function gameRoute(app) {
             res.status(err.code || 500).json({ error: `${err.message}` });
         }
     });
-
-    // TODO: range
 }
 
 
