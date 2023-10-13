@@ -1,4 +1,9 @@
 class GameService {
+  /**
+   *
+   * @param {number} num
+   * @returns {string | number}
+   */
   async startMarkoPolo (num) {
     /** check if the number is divisible by 3 and 5 */
     const isDivisibleBy3 = num % 3 === 0
