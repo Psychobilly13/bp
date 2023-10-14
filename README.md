@@ -44,9 +44,9 @@ commands:
 
 -n 'number' - play with one number
 
--l 'Array<number>' - play with array of numbers
+-l 'number[]' - play with array of numbers
 
--r 'Array<number>' - play with range of array of two numbers
+-r 'number[]' - play with range of array of two numbers
 
 close - to close connect
 
