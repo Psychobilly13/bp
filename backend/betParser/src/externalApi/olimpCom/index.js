@@ -48,9 +48,8 @@ async function startOlimpCom() {
             })
         });
     });
-
-    //console.log(result);
-    console.log(JSON.stringify(result, null, 2));
+    
+    return result;
 }
 
 module.exports = {startOlimpCom}
