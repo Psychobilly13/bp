@@ -50,11 +50,11 @@ example:
 
 ### get started
 
-`npm run start`
-
+`npm run start`  
 also you can star the cron task `npm run start:cron`
 
-example:
+_the result will appear in the terminal_  
+_example:_
 | №   | Название матча                  | id       | score | П1                                  | X                            | П2                                  |
 | --- | ------------------------------- | -------- | ----- | ----------------------------------- | --------------------------- | ----------------------------------- |
 | 0   | Венгрия - Сербия                | 78947881 | 2:1   | olimp.com 1.01 = 1.01 olimp.bet    | olimp.com 9 = 9 olimp.bet    | olimp.com 41 = 41 olimp.bet    |
