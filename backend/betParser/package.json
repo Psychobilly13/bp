@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "start:cron": "node src/cron/index.js",
     "lint:fix": "eslint src --fix"
   },
   "author": "psychobilly13",
@@ -19,6 +21,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
     "node-fetch": "^3.3.2"
   }
 }
