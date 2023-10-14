@@ -60,3 +60,5 @@ example:
 | 0   | Венгрия - Сербия                | 78947881 | 2:1   | olimp.com 1.01 = 1.01 olimp.bet    | olimp.com 9 = 9 olimp.bet    | olimp.com 41 = 41 olimp.bet    |
 | 1   | Пуэрто-Рико - Гайана            | 78965505 | 1:2   | olimp.com 34 = 34 olimp.bet        | olimp.com 5.2 = 5.2 olimp.bet | olimp.com 1.15 = 1.15 olimp.bet |
 | 2   | Ла-Лус - Ливерпуль Монтевидео  | 78969033 | 0:0   | olimp.com 3.25 = 3.25 olimp.bet    | olimp.com 2.1 = 2.1 olimp.bet  | olimp.com 3.5 = 3.5 olimp.bet  |
+
+russian READMER.md
