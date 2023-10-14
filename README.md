@@ -20,7 +20,7 @@ default http://localhost:8080
 default http://localhost:3000
 
 _after starting you can open front interface on http://localhost:3000.
-in each request, you will see three fields.
+on page you will see three fields.
 at the very bottom, under the 'result' label, you can obtain the API's output._
 
 - ws
