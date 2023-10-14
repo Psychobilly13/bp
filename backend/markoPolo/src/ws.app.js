@@ -35,10 +35,8 @@ wss.on('connection', (ws) => {
       }
     }
 
-    console.log(result);
-
     /** result */
-    ws.send('client.response: ' + JSON.stringify(result))
+    ws.send(JSON.stringify(result))
   })
   ws.on('close', () => {
     console.log('client.disconnected')

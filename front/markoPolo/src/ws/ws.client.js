@@ -17,7 +17,7 @@ function getClientSocket () {
     } else {
       console.log('connect.closing')
     }
-    console.log('code:', event.code, 'reason:', event.reason)
+    console.log('code:', event.code)
   })
 
   socket.addEventListener('error', (event) => {

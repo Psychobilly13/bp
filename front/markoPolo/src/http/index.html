@@ -35,18 +35,18 @@
     <button onclick="sendData('number')">Send number</button>
     <br>
     <br>
-    <label for="inputRange">Range (start, end):</label>
-    <br>
-    <input type="text" id="inputRange" placeholder="start,end">
-    <br>
-    <button onclick="sendData('range')">Send range</button>
-    <br>
-    <br>
     <label for="inputList">Number's list:</label>
     <br>
     <input type="text" id="inputList" placeholder="1,2,3,4,5...">
     <br>
     <button onclick="sendData('list')">Send list</button>
+    <br>
+    <br>
+    <label for="inputRange">Range (start, end):</label>
+    <br>
+    <input type="text" id="inputRange" placeholder="start,end">
+    <br>
+    <button onclick="sendData('range')">Send range</button>
     <br>
     <br>
     Result:
@@ -55,6 +55,7 @@
 
     <script>
         async function sendData(type) {
+            // TODO: move to config
             const URL = "http://localhost:8080"
             const inputElement = document.getElementById(`input${type.charAt(0).toUpperCase() + type.slice(1)}`);
             const inputData = inputElement.value;
