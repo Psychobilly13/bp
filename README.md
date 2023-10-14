@@ -12,6 +12,8 @@
 `npm run start:http`
 default http://localhost:8080
 
+_there is postman collection in .devel directory._
+
 **client**
 
 `cd front/markoPolo`
