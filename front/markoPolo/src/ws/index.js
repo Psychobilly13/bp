@@ -9,9 +9,9 @@ const rl = readline.createInterface({
   output: process.stdout
 })
 
-async function processCommand (command, socket) {
+async function processCommand (command) {
   if (command.includes('-')) {
-    await sendWsReqByCommand(command, socket)
+    await sendWsReqByCommand(command)
     await startConsole()
   } else if (command === 'close') {
     socket.close()
