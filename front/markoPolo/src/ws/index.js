@@ -17,7 +17,7 @@ async function processCommand (command, socket) {
     socket.close()
     rl.close()
   } else {
-    console.log("commands: \n-n 'number' - play with one number\n-l 'Array<number>' - play with array of numbers\n=r 'Array<number>' - play with range of array of two numbers")
+    console.log("commands: \n-n 'number' - play with one number\n-l 'Array<number>' - play with array of numbers\n-r 'Array<number>' - play with range of array of two numbers\nclose - to close connect")
     await startConsole()
   }
 }
@@ -32,6 +32,7 @@ async function startConsole (socket) {
 async function sendWsReqByCommand (command) {
   if (!command.match(/-n|-l|-r/)) {
     console.log('command.unknown')
+    console.log("commands: \n-n 'number' - play with one number\n-l 'Array<number>' - play with array of numbers\n-r 'Array<number>' - play with range of array of two numbers\nclose - to close connect")
   }
   if (command.includes('-n')) {
     const strData = command.split('-n')[1]?.trim()
