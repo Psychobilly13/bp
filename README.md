@@ -23,7 +23,7 @@ _after starting you can open front interface on http://localhost:3000.
 on page you will see three fields.
 at the very bottom, under the 'result' label, you can obtain the API's output._
 
-_for checking logic with random number it has CLI comman_
+_for checking logic with random number it has CLI command_
 `npm run cli markoPolo:randomInRangeFrom1to100`
 
 - ws
